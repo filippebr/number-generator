@@ -5,39 +5,61 @@
 		<title>Random Number Generator</title>
 
 		<link rel="stylesheet" href="style.css">
+
 	</head>
+
 	<body>
-		<h1>Random Number Generator</h1>
-		<p id="pRan"></p>
-		Amount:
-		<select id="selDig">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-			<option value="6">6</option>
-			<option value="7">7</option>
-			<option value="8">8</option>
-			<option value="9">9</option>
-			<option value="10">10</option>
-		</select>
-		Digits:
-		<select id="selAm">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-			<option value="6">6</option>
-			<option value="7">7</option>
-			<option value="8">8</option>
-			<option value="9">9</option>
-			<option value="10">10</option>
-		</select>
 
-		<button id="btnRan">Gerar</button>
+		<div id="grpGen">
 
-		<script src="script.js"></script>
+			<h1>Random Number Generator</h1>
+
+			<div id="grpSel">
+
+				<span>Digits:</span>
+				<select id="selDig">
+					<optgroup>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</optgroup>
+				</select>
+
+				<span>Amount:</span>
+				<select id="selAm">
+					<optgroup>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</optgroup>
+				</select>
+
+				<button id="btnGen">Generate</button>
+
+				<p id="pRanNum"></p>
+
+			</div>
+
+			<script src="script.js"></script>
+
+		</div>
+
 	</body>
+
 </html>

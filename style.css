@@ -1,3 +1,50 @@
 body {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  border: 2px solid silver;
+  background-color: #3B444B;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  color: #A52A2A;
+}
+
+select option {
+  font-size: 1.5rem;
+}
+
+#grpGen {
+  margin-top: 10px;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 15px;
+
+  border: 1px solid black;
+  background-color: #B2BEB5;
+  font-family: courier;
+  font-weight: bold;
+}
+
+#grpSel{
+  padding-top: 25px;
+  text-align: center;
 }
